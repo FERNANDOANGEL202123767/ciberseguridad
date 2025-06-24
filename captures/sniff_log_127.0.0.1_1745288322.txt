@@ -1,0 +1,2 @@
+[20:18:42] Captura iniciada para 127.0.0.1
+[20:18:42] Interfaz: lo

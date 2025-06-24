@@ -1,0 +1,2 @@
+[20:06:41] Captura iniciada para 192.168.0.44
+[20:06:41] Interfaz: wlan0

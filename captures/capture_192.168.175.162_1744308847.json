@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.11:52222",
+        "destination": "192.168.175.162:8080",
+        "length": "74",
+        "flags": "SYN",
+        "payload": "No payload",
+        "raw_hex": "cc73141eba7734f39a3cbe5008004500003c0b1c400040064fa1c0a8af0b..."
+    },
+    {
+        "id": "2",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "74",
+        "flags": "SYN-ACK",
+        "payload": "No payload",
+        "raw_hex": "34f39a3cbe50cc73141eba7708004500003c0000400040065abdc0a8afa2..."
+    },
+    {
+        "id": "3",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.11:52222",
+        "destination": "192.168.175.162:8080",
+        "length": "66",
+        "flags": "ACK",
+        "payload": "No payload",
+        "raw_hex": "cc73141eba7734f39a3cbe500800450000340b1d400040064fa8c0a8af0b..."
+    },
+    {
+        "id": "4",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.11:52222",
+        "destination": "192.168.175.162:8080",
+        "length": "275",
+        "flags": "ACK-PSH",
+        "payload": "POST /login HTTP/1.1\r\nHost: 192.168.175.162:8080\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Type: application/json\r\nContent-Length: 85\r\n\r\n",
+        "raw_hex": "cc73141eba7734f39a3cbe500800450001050b1e400040064ed6c0a8af0b..."
+    },
+    {
+        "id": "5",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.11:52222",
+        "destination": "192.168.175.162:8080",
+        "length": "151",
+        "flags": "ACK-PSH",
+        "payload": "{\"username\": \"tesji2025\", \"password\": \"12345678\", \"timestamp\": \"2025-04-10 12:14:13\"}",
+        "raw_hex": "cc73141eba7734f39a3cbe500800450000890b1f400040064f51c0a8af0b..."
+    },
+    {
+        "id": "6",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "66",
+        "flags": "ACK",
+        "payload": "No payload",
+        "raw_hex": "34f39a3cbe50cc73141eba770800450000345774400040060351c0a8afa2..."
+    },
+    {
+        "id": "7",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "66",
+        "flags": "ACK",
+        "payload": "No payload",
+        "raw_hex": "34f39a3cbe50cc73141eba770800450000345775400040060350c0a8afa2..."
+    },
+    {
+        "id": "8",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "190",
+        "flags": "ACK-PSH",
+        "payload": "HTTP/1.0 200 OK\r\nServer: BaseHTTP/0.6 Python/3.12.9\r\nDate: Thu, 10 Apr 2025 18:14:13 GMT\r\nContent-type: application/json\r\n\r\n",
+        "raw_hex": "34f39a3cbe50cc73141eba770800450000b057764000400602d3c0a8afa2..."
+    },
+    {
+        "id": "9",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "103",
+        "flags": "ACK-PSH-FIN",
+        "payload": "{\"message\": \"Credenciales recibidas\"}",
+        "raw_hex": "34f39a3cbe50cc73141eba770800450000595777400040060329c0a8afa2..."
+    },
+    {
+        "id": "10",
+        "time": "12:14:13",
+        "protocol": "TCP",
+        "source": "192.168.175.162:8080",
+        "destination": "192.168.175.11:52222",
+        "length": "103",
+        "flags": "ACK-PSH-FIN",
+        "payload": "{\"message\": \"Credenciales recibidas\"}",
+        "raw_hex": "34f39a3cbe50cc73141eba770800450000595778400040060328c0a8afa2..."
+    }
+]
